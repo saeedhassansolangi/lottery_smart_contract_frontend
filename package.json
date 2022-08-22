@@ -1,0 +1,30 @@
+{
+  "name": "01_nextjs_lottery_frontend",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "prod":"next export"
+  },
+  "dependencies": {
+    "@walletconnect/web3-provider": "^1.8.0",
+    "@web3auth/web3auth": "^1.2.0",
+    "@web3uikit/core": "^0.1.5",
+    "@web3uikit/icons": "^0.1.5",
+    "@web3uikit/web3": "^0.1.5",
+    "ethers": "^5.7.0",
+    "magic-sdk": "^9.0.0",
+    "moralis": "^2.0.3",
+    "next": "12.2.5",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-moralis": "^1.4.1"
+  },
+  "devDependencies": {
+    "eslint": "8.22.0",
+    "eslint-config-next": "12.2.5"
+  }
+}
